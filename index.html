@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CFE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <div style="background-color: #007CAE;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg py-3 ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">CFE</a>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search </button>
+                  </form>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Reviews</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                      </li>
+                      <button type="button" class="btn btn-warning">Enroll</button>
+                     
+                    </ul>
+           
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <!-- End Navbar -->
+
+<!-- Start Blog -->
+<div class="container my-5">
+  <div class="row">
+    <div class="col-lg-9">
+<img class="img-fluid" src="images/kubernetes-ingress-nginx.jpg" alt="">
+
+<div class="border-bottom border-subtle mb-2 ">
+  <a class="btn btn-secondary mx-2 p-1 px-3 my-4 blog-icon"  href="">Deployment</a>
+  <a class="btn btn-secondary mx-2 p-1 px-3 my-4 blog-icon"  href="">ingress-nginx</a>
+  <a class="btn btn-secondary mx-2 p-1 px-3 my-4 blog-icon"  href="">IP Addresses</a>
+  <a class="btn btn-secondary mx-2 p-1 px-3 my-4 blog-icon"  href="">K8s
+  </a>
+  <a class="btn btn-secondary mx-2 p-1 px-3 my-4 blog-icon"  href="">NGINX</a>
+</div>
+<h1 style="    font-size: 2.25rem;
+line-height: 2.5rem;     font-weight: 800;" class="border-bottom py-3 mb-2">Configure Kubernetes for NGINX <br> with ingress-nginx</h1>
+<h3 style="    font-size: 1.3333333em;     font-weight: 700;" class="mb-4">Requirments</h3>
+<ul>
+<li style="    font-size: 1.125rem;line-height: 1.7777778;">a Kubernetes Cluster</li>
+<li style="    font-size: 1.125rem;line-height: 1.7777778;">Correct permissions to create a deployment, service, and and installing the Ingress NGINX controller</li>
+<li class="mb-4" style="    font-size: 1.125rem;line-height: 1.7777778;">kubectl installed</li>
+<button type="button" class="btn btn-outline-primary me-3">Read More</button>
+<span class="mx-4">
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chat-left-text-fill" viewBox="0 0 16 16">
+  <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
+</svg>
+</span>
+<p style="    font-size: 0.75rem;line-height: 1rem; margin-left:144px;" class="pb-3" >Write or View comments</p>
+
+
+</ul>
+
+
+
+
+    </div>
+
+    <div class="col-lg-3">
+<div class="row border-bottom border-black text-centerf px-3 mb-3">
+  <div class="col-lg-4">
+    <h5>Discover</h5>
+  </div>
+  <div class="col-lg-4">
+    <h5>Recent</h5>
+  </div>
+  <div class="col-lg-4">
+    <h5>Popular</h5>
+  </div>
+</div>
+
+<div class="card mb-2" style="width: 18rem;">
+  <img src="images/card1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+<div class="card mb-2" style="width: 18rem;">
+  <img src="images/card2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  
+    <p class="card-text">Django, Gunicorn, & NGINX Running together within a Container</p>
+  
+  </div>
+</div>
+
+<div class="card mb" style="width: 18rem;">
+  <img src="images/3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+<!-- Start Blog -->
+
+
+
+  </body>

@@ -1,0 +1,26 @@
+/* NAVBAR */
+.mynavbar{
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.navbar-brand{
+    color: white;
+    font-weight: 700;
+}
+/* blog */
+
+.blog-icon{
+    
+    font-weight: 500;
+background-color: #C3DDFD;
+    line-height: 1.25rem;
+    color: rgb(30 66 159 / var(--tw-text-opacity));
+}
+.blog-title{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
